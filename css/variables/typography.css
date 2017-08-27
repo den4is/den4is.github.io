@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway|Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Rokkitt:300');
 :root{
-  --font-family-primary: 'Raleway', sans-serif;
-  --font-family-secondary: 'Slabo 27px', serif;
+  --font-family-primary: 'PT Sans', sans-serif;
+  --font-family-secondary: 'Rokkitt', serif;
 }

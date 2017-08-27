@@ -1,9 +1,13 @@
+@import 'variables/colors.css';
+@import 'variables/typography.css';
+
 a{
 	text-decoration:none;
-	color: darkblue;
+	color: var(--color-secondary);
 }
-h1,h2,h3,h4,h5,h6{
-  font-family: var(--font-family-primary)
+
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--font-family-primary);
 }
 
 h1{
@@ -42,14 +46,14 @@ h6{
 }
 
 .page-content{
-  font-family: var(--font-family-secondary);
+	font-family: var(--font-family-secondary);
   width: 1280px;
 }
 
 .header{
-	background-color: #ececec;
+	background-color: var(--color-primary);
 	width: 100%;
-	border-bottom: 3px solid #000080;
+	border-bottom: 3px solid var(--color-secondary);
 	height: 60px;
 }
 
@@ -78,7 +82,7 @@ h6{
 }
 
 .header-secondary .container{
-	color: white;
+	color: var(--color-quartinery);
 	flex-grow: 1;
   align-items: stretch;
   justify-content: space-between;
@@ -110,11 +114,11 @@ h6{
 	align-items: center;
 	margin-top: auto;
 	margin-bottom: auto;
-	}
+}
 
 .main-content {
 	display: flex;
-	background-color: #ececec;
+	background-color: var(--color-primary);
 	height: 900px;
 }
 
@@ -128,19 +132,19 @@ h6{
 }
 
 .fa-suitcase{
- color: #000080;
+  color: var(--color-secondary);
 }
 
 .fa-graduation-cap{
- 	color: #000080;
+ 	color: var(--color-secondary);
 }
 
 .fa-bar-chart{
-  color: #000080;
+  color: var(--color-secondary);
 }
 
 .main-content .breakpoint{
-	color: #A9A9A9;
+	color: var(--color-tertiary);
 }
 
 .sub-box{
@@ -159,34 +163,34 @@ h6{
 
 .skills{
 	text-align: center;
-	color: white;
+	color: var(--color-quartinery);
 	font-weight:bold;
 }
 
 .html{
 	width: 90%;
-	background-color: #000080;
+	background-color: var(--color-secondary);
 }
 
 .css{
 	width: 50%;
-	background: #000080;
+	background-color: var(--color-secondary);
 }
 
 .js{
 	width: 15%;
-	background: #000080;
+	background-color: var(--color-secondary);
 }
 
 .java{
 	width: 70%;
-	background: #000080;
+	background-color: var(--color-secondary);
 }
 
 .footer{
 	background-image: url(https://www.cpb.nl/sites/all/themes/cpb/images/header/cijfers.png);
 	height: 10px;
-	color: grey;
+	color: var(--color-tertiary);
 	text-align: right;
 	font-size: 0.6em;
 	padding: 2px;
