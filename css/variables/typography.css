@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Slabo+27px');
+:root{
+  --font-family-primary: 'Raleway', sans-serif;
+  --font-family-secondary: 'Slabo 27px', serif;
+}

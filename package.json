@@ -1,0 +1,18 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "process-images": "cp -r src/img dist/img",
+    "css-lint": "node node_modules/stylelint/lib/cli.js 'src/css/**/*.css'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run csslint && npm run process-images"
+  },
+  "author": "Dennis Piric",
+  "license": "ISC",
+  "dependencies": {
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "^17.0.0"
+  }
+}

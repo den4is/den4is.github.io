@@ -1,0 +1,3 @@
+@import 'reset.css';
+@import 'dennispiriccv.css';
+@import 'small-screen.css' screen and ( max-width:800px );

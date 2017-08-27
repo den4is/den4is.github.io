@@ -1,0 +1,18 @@
+.aligner-item-mid-selfportrait {
+	position: static;
+}
+
+.main-content{
+	flex-direction: column;
+}
+
+.background-holder {
+		max-height: inherit;
+}
+
+.header{
+	display: flex;
+	flex-direction: column;
+}
+
+/* flex-direction column, +  flex wrap*/
