@@ -1,197 +1,202 @@
 @import 'variables/colors.css';
 @import 'variables/typography.css';
 
-a{
-	text-decoration:none;
-	color: var(--color-secondary);
+a {
+  text-decoration: none;
+  color: var(--color-secondary);
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-family-primary);
 }
 
-h1{
+h1 {
   font-size: 2.0em;
   font-weight: bold;
 }
 
-h2{
-	font-weight: bold;
-	font-size: 1.8em;
-}
-
-h3{
-	font-weight: bold;
-	font-size: 1.6em;
-}
-
-h4{
-	font-weight: bold;
-	font-size: 1.4em;
-}
-
-h5{
-	font-weight: bold;
-	font-size: 1.2em;
-}
-
-h6{
+h2 {
   font-weight: bold;
-	font-size: 1.0em;
+  font-size: 1.8em;
 }
 
-.headerMessage{
-	text-align: center;
-	padding-top: 35px;
+h3 {
+  font-weight: bold;
+  font-size: 1.6em;
 }
 
-.page-content{
-	font-family: var(--font-family-secondary);
+h4 {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+h6 {
+  font-weight: bold;
+  font-size: 1.0em;
+}
+
+.headerMessage {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.page-content {
+  font-family: var(--font-family-secondary);
   width: 1280px;
 }
 
-.header{
-	background-color: var(--color-primary);
-	width: 100%;
-	border-bottom: 3px solid var(--color-secondary);
-	height: 60px;
+.header {
+  background-color: var(--color-primary);
+  width: 100%;
+  border-bottom: 3px solid var(--color-secondary);
+  height: 60px;
 }
 
-.header ul{
-	display: flex;
-	flex-direction: row;
+.header ul {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
-.iconlist li{
+.iconlist li {
   margin: 20px 40px;
 }
 
-.secondHeader{
-	height: 200px;
+.secondHeader {
+  height: 200px;
 }
 
-.shortMessage{
-	padding: 8px;
+.shortMessage {
+  padding: 8px;
 }
 
-.header-secondary{
-	background-image: url(http://allswalls.com/images/black-and-blue-lines-wallpaper-1.jpg);
+.header-secondary {
+  background-image: url(http://allswalls.com/images/black-and-blue-lines-wallpaper-1.jpg);
   max-height: 250px;
-	display: flex;
+  display: flex;
 }
 
-.header-secondary .container{
-	color: var(--color-quartinery);
-	flex-grow: 1;
+.header-secondary .container {
+  color: var(--color-quartinery);
+  flex-grow: 1;
   align-items: stretch;
   justify-content: space-between;
   width: 30%;
   box-sizing: border-box;
 }
 
-.self-portrait{
-	text-align: center;
-}
-
-.self-portrait img{
-	border: 3px white solid;
-	border-radius: 50%;
-	position: relative;
-	top: -25px;
-	margin-right: 10px;
-}
-
-.container.information{
+.self-portrait {
   text-align: center;
-	margin-top: auto;
-	margin-bottom: auto;
 }
 
-.container.contact{
+.self-portrait img {
+  border: 3px white solid;
+  border-radius: 50%;
+  position: relative;
+  top: -25px;
+  margin-right: 10px;
+}
+
+.container.information {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.container.contact {
   display: flex;
-	flex-direction:column;
-	align-items: center;
-	margin-top: auto;
-	margin-bottom: auto;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .main-content {
-	display: flex;
-	background-color: var(--color-primary);
-	height: 900px;
+  display: flex;
+  background-color: var(--color-primary);
+  height: 900px;
 }
 
 .main-content .boxes {
-	flex-grow: 1;
-	align-items: stretch;
-	justify-content: space-between;
-	width: calc(100% / 3);
+  flex-grow: 1;
+  align-items: stretch;
+  justify-content: space-between;
+  width: calc(100% / 3);
   /*width: 33 or 1%; */
-	padding: 70px;
+  padding: 70px;
 }
 
-.fa-suitcase{
+.fa-suitcase {
   color: var(--color-secondary);
 }
 
-.fa-graduation-cap{
- 	color: var(--color-secondary);
-}
-
-.fa-bar-chart{
+.fa-graduation-cap {
   color: var(--color-secondary);
 }
 
-.main-content .breakpoint{
-	color: var(--color-tertiary);
+.fa-bar-chart {
+  color: var(--color-secondary);
 }
 
-.sub-box{
-	border: 1px solid black;
-	border-radius: 4px;
-	padding: 3px;
+.main-content .breakpoint {
+  color: var(--color-tertiary);
 }
 
-.sub-box p{
-	margin-top: 2px;
+.sub-box {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 3px;
 }
 
-.boxes h6{
-	margin-top: 4px;
+.sub-box p {
+  margin-top: 2px;
 }
 
-.skills{
-	text-align: center;
-	color: var(--color-quartinery);
-	font-weight:bold;
+.boxes h6 {
+  margin-top: 4px;
 }
 
-.html{
-	width: 90%;
-	background-color: var(--color-secondary);
+.skills {
+  text-align: center;
+  color: var(--color-quartinery);
+  font-weight: bold;
 }
 
-.css{
-	width: 50%;
-	background-color: var(--color-secondary);
+.html {
+  width: 90%;
+  background-color: var(--color-secondary);
 }
 
-.js{
-	width: 15%;
-	background-color: var(--color-secondary);
+.css {
+  width: 50%;
+  background-color: var(--color-secondary);
 }
 
-.java{
-	width: 70%;
-	background-color: var(--color-secondary);
+.js {
+  width: 15%;
+  background-color: var(--color-secondary);
 }
 
-.footer{
-	background-image: url(https://www.cpb.nl/sites/all/themes/cpb/images/header/cijfers.png);
-	height: 10px;
-	color: var(--color-tertiary);
-	text-align: right;
-	font-size: 0.6em;
-	padding: 2px;
+.java {
+  width: 70%;
+  background-color: var(--color-secondary);
+}
+
+.footer {
+  background-image: url(https://www.cpb.nl/sites/all/themes/cpb/images/header/cijfers.png);
+  height: 10px;
+  color: var(--color-tertiary);
+  text-align: right;
+  font-size: 0.6em;
+  padding: 2px;
 }
